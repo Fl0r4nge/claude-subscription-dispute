@@ -1,7 +1,10 @@
-# 原始截图包含个人资料和交易标识；公开仓库只收录文字。
+# 原始截图包含个人资料和交易标识，不提交。
+# 只有 images/ 中已脱敏的截图可以提交。
 *.png
 *.jpg
 *.jpeg
 *.webp
 *.pdf
+!images/*.png
+!images/*.jpg
 .DS_Store
